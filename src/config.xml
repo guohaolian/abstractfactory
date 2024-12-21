@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <config>
-    <classname1>WinChartFactory</classname1>
-    <classname2>LinuxChartFactory</classname2>
-    <classname3>UnixChartFactory</classname3>
+    <classname>WinChartFactory</classname>
+    <classname>LinuxChartFactory</classname>
+    <classname>UnixChartFactory</classname>
 </config>
