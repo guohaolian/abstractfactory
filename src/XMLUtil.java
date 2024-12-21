@@ -21,11 +21,11 @@ public class XMLUtil {
                 //获取包含图表类型的文本结点
                 NodeList nodeList = doc.getElementsByTagName("classname");
                 Node classnode = null;
-                if (string == "win") {
+                if (string.equals("win") ){
                     classnode = nodeList.item(0).getFirstChild();
-                } else if (string == "linux") {
+                } else if (string.equals("linux")) {
                     classnode = nodeList.item(1).getFirstChild();
-                } else if(string=="unix") {
+                } else if(string.equals("unix")) {
                     classnode = nodeList.item(2).getFirstChild();
                 }
                 String className = classnode.getNodeValue();
