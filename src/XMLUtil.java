@@ -13,7 +13,7 @@ public class XMLUtil {
     public static Object getBean(String string) {
             //创建文档对象
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-            DocumentBuilder builder = null;
+            DocumentBuilder builder;
             try {
                 builder = factory.newDocumentBuilder();
                 Document doc;
